@@ -6,8 +6,8 @@ var YoutubeMp3Downloader = require("youtube-mp3-downloader");
  
 
 var YD = new YoutubeMp3Downloader({
-    "ffmpegPath": "C:/ffmpeg-20181018-f72b990-win64-static/bin/ffmpeg",        // Where is the FFmpeg binary located?
-    "outputPath": "C:/Users/Navneet gangwar/Desktop/youtube downloader/mp3",    // Where should the downloaded and encoded files be stored?
+    "ffmpegPath": "#",        // Where is the FFmpeg binary located?
+    "outputPath": "#",    // Where should the downloaded and encoded files be stored?
     "youtubeVideoQuality": "lowest",       // What video quality should be used?
     "queueParallelism": 2,                  // How many parallel downloads/encodes should be started?
     "progressTimeout": 2000                 // How long should be the interval of the progress reports
